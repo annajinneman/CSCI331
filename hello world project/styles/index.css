@@ -1,0 +1,93 @@
+
+h1{
+	font-size: 40px;
+	font-family: 'Questrial', sans-serif;
+	text-align: center;
+	color: darkslategrey;
+}
+
+h2{
+	font-size: 24px;
+	font-family: 'Questrial', sans-serif;
+	text-align: center;
+}
+
+h3{
+	font-size: 24px;
+	font-family: 'Questrial', sans-serif;
+}
+
+h4{
+	font-size: 14px;
+	font-family: 'Questrial', sans-serif;
+}
+
+.highlight{
+    background: yellow;
+}
+
+.text{
+	font-size: 10px;
+	font-family: 'Questrial', sans-serif;
+	display: inline-block;
+	vertical-align: top;
+	width: 50%;
+	float:right;
+	margin-bottom: 10px;
+}
+
+/* Flex columns */
+.row {
+  	display: flex;
+}
+
+.column {
+  	flex: 50%;
+}
+.slidecontainer {
+  	width: 100%; 
+  	margin-bottom: 20px;
+}
+
+.slider {
+  	width: 40%; 
+  	height: 25px;
+}
+
+img {
+  	border: 5px solid black;
+}
+
+img:hover {
+    border-color: grey;
+    cursor: pointer;
+}
+
+.timecontainer {
+  	width: 100%; 
+ 	margin-bottom: 30px;
+}
+	
+.button {
+ 	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+
+table, th, td {
+	border: 1px solid;
+	border-collapse: collapse;
+	padding: 20px;
+}
+
+#schedule {
+	font-size: 14px;
+	font-family: 'Questrial', sans-serif;
+}
+
+#tuesday {
+	background-color: #6ab099;
+	color: #e0f6ef;
+}

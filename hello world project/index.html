@@ -5,22 +5,38 @@
 <head>
   <meta charset="UTF-8">
   <title>Hello World</title>
+  <link rel="stylesheet" href="styles/index.css" type="text/css">
 </head>
 <body>
   <h1>Anna Jinneman</h1>
-  <h2>Net ID: p81v628</h2>
+  <h2><span class="highlight">Net ID: p81v628</span></h2>
   <ul>
-    <li><a href= "https://github.com/annajinneman/CSCI331">GitHub Project Files</a></li>
     <li><a href="https://annajinneman.github.io/hello%20world%20project/index.html">GitHub Pages</a></li>
-  </ul>   
-  <h2>Class Schedule</h2>
-  <table>
+  </ul>  
+  <div class="row">
+  <div class="column">
+    <h3>Questionnaire: Your thoughts on Dogs</h3>
+    <div class="slidecontainer">
+      <small>I hate dogs</small><input type="range" min="1" max="100" value="50" class="slider" id="energyRange"><small>I LOVE dogs</small>
+    </div>
+    <div class="timecontainer">
+      <h4>What time do you start thinking about dogs everyday?</h4>
+      <input type="time" id="appt" name="appt" min="09:00" max="18:00" required />
+    </div>
+    <button class="button" type="button">Submit Data</button>
+    <h3>My Dog Appa</h3>
+    <a href="https://en.wikipedia.org/wiki/Golden_Retriever"><img src="images/Appa1.jpg" alt="A cute picture of my dog Appa at Christmas" width="400" height="400" ></a>
+    <a href="https://en.wikipedia.org/wiki/Dog"><img src="images/Appa2.jpg" alt="A cute picture of my dog Appa looking down at the camera" width="400" height="400"></a>
+  </div>
+  <div class="column">
+    <h3>Class Schedule</h3>
+  <table id="schedule">
     <tr>
       <th></th>
       <th>Monday</th>
-      <th>Tuesday</th>
+      <th id="tuesday">Tuesday</th>
       <th>Wednesday</th>
-      <th>Thursday</th>
+      <th id="tuesday">Thursday</th>
       <th>Friday</th>
     </tr>
     <tr>
@@ -34,9 +50,9 @@
     <tr>
       <td><b>3:00</b></td>
       <td></td>
-      <td>CSCI 476</td>
+      <td id="tuesday">CSCI 476</td>
       <td></td>
-      <td>CSCI 476</td>
+      <td id="tuesday">CSCI 476</td>
       <td></td>
     </tr> 
     <tr>
@@ -56,12 +72,16 @@
       <td></td>
     </tr> 
   </table> 
-  <h2>Previous Courses</h2> 
+  <h3>Previous Courses</h3> 
   <ul>
     <li>CSCI 205</li>
     <li>CSCI 246</li>
     <li>CSCI 423</li>
   </ul>
+
+  </div>
+</div> 
+  
 
 </body>
 </html>
